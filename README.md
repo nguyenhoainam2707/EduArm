@@ -1,0 +1,1 @@
+## I'm too lazy to comment every line of code, so please read the datasheet to understand it better!
