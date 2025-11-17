@@ -1,256 +1,510 @@
-# EduArm - 5-DOF Robot Arm with Bare Metal Programming# EduArm - 5-DOF Robot Arm with Bare Metal Programming
+# EduArm - 5-DOF Robot Arm with Bare Metal Programming# EduArm - 5-DOF Robot Arm with Bare Metal Programming# EduArm - 5-DOF Robot Arm with Bare Metal Programming
 
 
 
-![Project Banner](path/to/your/image.jpg)![Project Banner](path/to/your/image.jpg)
+![Project Banner](path/to/your/image.jpg)
 
 
 
-## 📋 Overview## 📋 Overview
+## 📋 Overview![Project Banner](path/to/your/image.jpg)![Project Banner](path/to/your/image.jpg)
 
 
 
-A 5-DOF (5 Degrees of Freedom) robot arm control project using ATmega328P microcontroller with **bare-metal programming** (direct register manipulation). The system features an innovative control method using a miniature replica of the robot arm equipped with potentiometers at each joint to measure rotation angles, which then drives the full-scale robot arm to mimic the corresponding movements in real-time.A 5-DOF (5 Degrees of Freedom) robot arm control project using ATmega328P microcontroller with **bare-metal programming** (direct register manipulation). The system features an innovative control method using a miniature replica of the robot arm equipped with potentiometers at each joint to measure rotation angles, which then drives the full-scale robot arm to mimic the corresponding movements in real-time.
+A 5-DOF (5 Degrees of Freedom) robot arm control project using ATmega328P microcontroller with **bare-metal programming** (direct register manipulation). The system features an innovative control method using a miniature replica of the robot arm equipped with potentiometers at each joint to measure rotation angles, which then drives the full-scale robot arm to mimic the corresponding movements in real-time.
 
 
 
-------
+---## 📋 Overview## 📋 Overview
 
 
+
+## ✨ Key Features
+
+
+
+- 🤖 **5 Degrees of Freedom** - Control 6 independent servo motorsA 5-DOF (5 Degrees of Freedom) robot arm control project using ATmega328P microcontroller with **bare-metal programming** (direct register manipulation). The system features an innovative control method using a miniature replica of the robot arm equipped with potentiometers at each joint to measure rotation angles, which then drives the full-scale robot arm to mimic the corresponding movements in real-time.A 5-DOF (5 Degrees of Freedom) robot arm control project using ATmega328P microcontroller with **bare-metal programming** (direct register manipulation). The system features an innovative control method using a miniature replica of the robot arm equipped with potentiometers at each joint to measure rotation angles, which then drives the full-scale robot arm to mimic the corresponding movements in real-time.
+
+- 🎮 **Intuitive Control** - Physical miniature model with potentiometers at each joint
+
+- ⚙️ **Bare Metal Programming** - Low-level programming on ATmega328P with direct register manipulation
+
+- 🔧 **Dual Implementation** - Both bare-metal and high-level (Arduino) versions available
+
+- ⏱️ **Timer Interrupt Driven** - Uses Timer1 CTC mode for precise PWM signal generation------
+
+- 📊 **High ADC Precision** - Reads 6 ADC channels from potentiometers with 10-bit resolution
+
+
+
+---
 
 ## ✨ Key Features## ✨ Key Features
 
-
-
-- 🤖 **5 Degrees of Freedom** - Control 6 independent servo motors- 🤖 **5 Degrees of Freedom** - Control 6 independent servo motors
-
-- 🎮 **Intuitive Control** - Physical miniature model with potentiometers at each joint- 🎮 **Intuitive Control** - Physical miniature model with potentiometers at each joint
-
-- ⚙️ **Bare Metal Programming** - Low-level programming on ATmega328P with direct register manipulation- ⚙️ **Bare Metal Programming** - Low-level programming on ATmega328P with direct register manipulation
-
-- 🔧 **Dual Implementation** - Both bare-metal and high-level (Arduino) versions available- 🔧 **Dual Implementation** - Both bare-metal and high-level (Arduino) versions available
-
-- ⏱️ **Timer Interrupt Driven** - Uses Timer1 CTC mode for precise PWM signal generation- ⏱️ **Timer Interrupt Driven** - Uses Timer1 CTC mode for precise PWM signal generation
-
-- 📊 **High ADC Precision** - Reads 6 ADC channels from potentiometers with 10-bit resolution- 📊 **High ADC Precision** - Reads 6 ADC channels from potentiometers with 10-bit resolution
+## 🎬 Demo
 
 
 
-------
+<!-- Add your demo video link here -->
+
+[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)- 🤖 **5 Degrees of Freedom** - Control 6 independent servo motors- 🤖 **5 Degrees of Freedom** - Control 6 independent servo motors
 
 
 
-## 🎬 Demo## 🎬 Demo
+📹 [Watch demo video on YouTube](YOUR_YOUTUBE_LINK)- 🎮 **Intuitive Control** - Physical miniature model with potentiometers at each joint- 🎮 **Intuitive Control** - Physical miniature model with potentiometers at each joint
 
 
 
-<!-- Add your demo video link here --><!-- Add your demo video link here -->
-
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+---- ⚙️ **Bare Metal Programming** - Low-level programming on ATmega328P with direct register manipulation- ⚙️ **Bare Metal Programming** - Low-level programming on ATmega328P with direct register manipulation
 
 
 
-📹 [Watch demo video on YouTube](YOUR_YOUTUBE_LINK)📹 [Watch demo video on YouTube](YOUR_YOUTUBE_LINK)
+## 🖼️ Product Images- 🔧 **Dual Implementation** - Both bare-metal and high-level (Arduino) versions available- 🔧 **Dual Implementation** - Both bare-metal and high-level (Arduino) versions available
 
 
 
-------
+<!-- Add your images here -->- ⏱️ **Timer Interrupt Driven** - Uses Timer1 CTC mode for precise PWM signal generation- ⏱️ **Timer Interrupt Driven** - Uses Timer1 CTC mode for precise PWM signal generation
+
+<table>
+
+  <tr>- 📊 **High ADC Precision** - Reads 6 ADC channels from potentiometers with 10-bit resolution- 📊 **High ADC Precision** - Reads 6 ADC channels from potentiometers with 10-bit resolution
+
+    <td><img src="path/to/image1.jpg" alt="Robot Arm Front View" width="300"/></td>
+
+    <td><img src="path/to/image2.jpg" alt="Mini Controller" width="300"/></td>
+
+  </tr>
+
+  <tr>------
+
+    <td align="center"><b>Main Robot Arm</b></td>
+
+    <td align="center"><b>Miniature Controller</b></td>
+
+  </tr>
+
+  <tr>## 🎬 Demo## 🎬 Demo
+
+    <td><img src="path/to/image3.jpg" alt="Full System" width="300"/></td>
+
+    <td><img src="path/to/image4.jpg" alt="Circuit Board" width="300"/></td>
+
+  </tr>
+
+  <tr><!-- Add your demo video link here --><!-- Add your demo video link here -->
+
+    <td align="center"><b>Complete System</b></td>
+
+    <td align="center"><b>Control Circuit</b></td>[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+  </tr>
+
+</table>
 
 
 
-## 🖼️ Product Images## 🖼️ Product Images
+---📹 [Watch demo video on YouTube](YOUR_YOUTUBE_LINK)📹 [Watch demo video on YouTube](YOUR_YOUTUBE_LINK)
 
 
+
+## 🔧 Hardware
+
+
+
+### Main Components------
+
+
+
+- **Microcontroller:** ATmega328P (Arduino Uno/Nano)
+
+- **Servo Motors:** 6x Servo (MG996R or equivalent)
+
+- **Potentiometers:** 6x 10kΩ## 🖼️ Product Images## 🖼️ Product Images
+
+- **Power Supply:** 5-6V (separate for servos)
+
+
+
+### Connection Diagram
 
 <!-- Add your images here --><!-- Add your images here -->
 
-<table><table>
+#### Servo Motors
 
-  <tr>  <tr>
+| Servo | Pin | Description |<table><table>
 
-    <td><img src="path/to/image1.jpg" alt="Robot Arm Front View" width="300"/></td>    <td><img src="path/to/image1.jpg" alt="Robot Arm Front View" width="300"/></td>
+|-------|-----|-------------|
 
-    <td><img src="path/to/image2.jpg" alt="Mini Controller" width="300"/></td>    <td><img src="path/to/image2.jpg" alt="Mini Controller" width="300"/></td>
+| S0 | D2 | Base rotation |  <tr>  <tr>
+
+| S1 | D3 | Shoulder |
+
+| S2 | D4 | Elbow |    <td><img src="path/to/image1.jpg" alt="Robot Arm Front View" width="300"/></td>    <td><img src="path/to/image1.jpg" alt="Robot Arm Front View" width="300"/></td>
+
+| S3 | D5 | Wrist |
+
+| S4 | D6 | Wrist rotation |    <td><img src="path/to/image2.jpg" alt="Mini Controller" width="300"/></td>    <td><img src="path/to/image2.jpg" alt="Mini Controller" width="300"/></td>
+
+| S5 | D7 | Gripper |
 
   </tr>  </tr>
 
+#### Potentiometers (Analog Input)
+
+| Potentiometer | Pin | Corresponding Joint |  <tr>  <tr>
+
+|---------------|-----|---------------------|
+
+| POT0 | A0 | Base |    <td align="center"><b>Main Robot Arm</b></td>    <td align="center"><b>Main Robot Arm</b></td>
+
+| POT1 | A1 | Shoulder |
+
+| POT2 | A2 | Elbow |    <td align="center"><b>Miniature Controller</b></td>    <td align="center"><b>Miniature Controller</b></td>
+
+| POT3 | A3 | Wrist |
+
+| POT4 | A4 | Wrist rotation |  </tr>  </tr>
+
+| POT5 | A5 | Gripper |
+
   <tr>  <tr>
 
-    <td align="center"><b>Main Robot Arm</b></td>    <td align="center"><b>Main Robot Arm</b></td>
-
-    <td align="center"><b>Miniature Controller</b></td>    <td align="center"><b>Miniature Controller</b></td>
-
-  </tr>  </tr>
-
-  <tr>  <tr>
+---
 
     <td><img src="path/to/image3.jpg" alt="Full System" width="300"/></td>    <td><img src="path/to/image3.jpg" alt="Full System" width="300"/></td>
 
+## 💻 Software
+
     <td><img src="path/to/image4.jpg" alt="Circuit Board" width="300"/></td>    <td><img src="path/to/image4.jpg" alt="Circuit Board" width="300"/></td>
 
-  </tr>  </tr>
-
-  <tr>  <tr>
-
-    <td align="center"><b>Complete System</b></td>    <td align="center"><b>Complete System</b></td>
-
-    <td align="center"><b>Control Circuit</b></td>    <td align="center"><b>Control Circuit</b></td>
+### Project Structure
 
   </tr>  </tr>
 
-</table></table>
+```
+
+EduArm/  <tr>  <tr>
+
+├── EduArm_Bare_Metal_Programming.ino    # Bare-metal implementation
+
+├── EduArm_High_Level_Programming.ino    # Arduino library implementation    <td align="center"><b>Complete System</b></td>    <td align="center"><b>Complete System</b></td>
+
+└── README.md
+
+```    <td align="center"><b>Control Circuit</b></td>    <td align="center"><b>Control Circuit</b></td>
 
 
 
-------
+### 1. Bare Metal Programming (EduArm_Bare_Metal_Programming.ino)  </tr>  </tr>
 
 
+
+This version uses low-level programming with the following features:</table></table>
+
+
+
+- **Timer1 CTC Mode**: Generates PWM signals for 6 servos with 20ms period
+
+- **Interrupt Service Routine (ISR)**: Implements state machine to control each servo
+
+- **ADC Manual Configuration**: Configures and reads ADC through direct register manipulation------
+
+- **Direct Register Manipulation**: No Arduino libraries used
+
+
+
+#### Working Principle
 
 ## 🔧 Hardware## 🔧 Hardware
 
+```cpp
 
+// Timer1 CTC mode with prescaler = 8
 
-### Main Components### Main Components
+// OCR1A determines interrupt timing
 
+// State machine toggles between ON/OFF states for each servo### Main Components### Main Components
 
+ISR(TIMER1_COMPA_vect) {
 
-- **Microcontroller:** ATmega328P (Arduino Uno/Nano)- **Microcontroller:** ATmega328P (Arduino Uno/Nano)
+    // Toggle servo state
+
+    // Update OCR1A for next interrupt
+
+}- **Microcontroller:** ATmega328P (Arduino Uno/Nano)- **Microcontroller:** ATmega328P (Arduino Uno/Nano)
+
+```
 
 - **Servo Motors:** 6x Servo (MG996R or equivalent)- **Servo Motors:** 6x Servo (MG996R or equivalent)
 
-- **Potentiometers:** 6x 10kΩ- **Potentiometers:** 6x 10kΩ
+**Technical Specifications:**
 
-- **Power Supply:** 5-6V (separate for servos)- **Power Supply:** 5-6V (separate for servos)
+- CPU Frequency: 16MHz- **Potentiometers:** 6x 10kΩ- **Potentiometers:** 6x 10kΩ
+
+- Prescaler: 8 (Timer ticks every 0.5μs)
+
+- PWM Period: ~20ms (50Hz)- **Power Supply:** 5-6V (separate for servos)- **Power Supply:** 5-6V (separate for servos)
+
+- Pulse Width: 460μs - 2520μs (servo dependent)
 
 
+
+### 2. High-Level Programming (EduArm_High_Level_Programming.ino)
 
 ### Connection Diagram### Connection Diagram
 
-
-
-#### Servo Motors#### Servo Motors
-
-| Servo | Pin | Description || Servo | Pin | Description |
-
-|-------|-----|-------------||-------|-----|-------------|
-
-| S0 | D2 | Base rotation || S0 | D2 | Base rotation |
-
-| S1 | D3 | Shoulder || S1 | D3 | Shoulder |
-
-| S2 | D4 | Elbow || S2 | D4 | Elbow |
-
-| S3 | D5 | Wrist || S3 | D5 | Wrist |
-
-| S4 | D6 | Wrist rotation || S4 | D6 | Wrist rotation |
-
-| S5 | D7 | Gripper || S5 | D7 | Gripper |
+Simplified version using Arduino's Servo library:
 
 
 
-#### Potentiometers (Analog Input)#### Potentiometers (Analog Input)
+- **Servo Library**: Uses `Servo.h` for control
 
-| Potentiometer | Pin | Corresponding Joint || Potentiometer | Pin | Corresponding Joint |
+- **analogRead()**: Reads potentiometer values#### Servo Motors#### Servo Motors
 
-|---------------|-----|---------------------||---------------|-----|---------------------|
+- **map()**: Converts ADC values to microseconds
 
-| POT0 | A0 | Base || POT0 | A0 | Base |
+- **Easier to understand and maintain**| Servo | Pin | Description || Servo | Pin | Description |
 
-| POT1 | A1 | Shoulder || POT1 | A1 | Shoulder |
+
+
+---|-------|-----|-------------||-------|-----|-------------|
+
+
+
+## 🚀 Installation & Usage| S0 | D2 | Base rotation || S0 | D2 | Base rotation |
+
+
+
+### Requirements| S1 | D3 | Shoulder || S1 | D3 | Shoulder |
+
+
+
+- Arduino IDE 1.8+ or PlatformIO| S2 | D4 | Elbow || S2 | D4 | Elbow |
+
+- Board: Arduino Uno/Nano (ATmega328P)
+
+- Libraries: Servo (only for high-level version)| S3 | D5 | Wrist || S3 | D5 | Wrist |
+
+
+
+### Instructions| S4 | D6 | Wrist rotation || S4 | D6 | Wrist rotation |
+
+
+
+1. **Clone repository:**| S5 | D7 | Gripper || S5 | D7 | Gripper |
+
+```bash
+
+git clone https://github.com/nguyenhoainam2707/EduArm.git
+
+cd EduArm
+
+```#### Potentiometers (Analog Input)#### Potentiometers (Analog Input)
+
+
+
+2. **Open code file:**| Potentiometer | Pin | Corresponding Joint || Potentiometer | Pin | Corresponding Joint |
+
+   - Bare-metal: `EduArm_Bare_Metal_Programming.ino`
+
+   - High-level: `EduArm_High_Level_Programming.ino`|---------------|-----|---------------------||---------------|-----|---------------------|
+
+
+
+3. **Calibration:**| POT0 | A0 | Base || POT0 | A0 | Base |
+
+   - Measure min/max ADC values for each potentiometer
+
+   - Measure min/max pulse width for each servo| POT1 | A1 | Shoulder || POT1 | A1 | Shoulder |
+
+   - Update macros `MIN_A0`, `MAX_A0`, `MIN_S0`, `MAX_S0`, etc.
 
 | POT2 | A2 | Elbow || POT2 | A2 | Elbow |
 
-| POT3 | A3 | Wrist || POT3 | A3 | Wrist |
+4. **Upload code:**
 
-| POT4 | A4 | Wrist rotation || POT4 | A4 | Wrist rotation |
+   - Select board: Arduino Uno/Nano| POT3 | A3 | Wrist || POT3 | A3 | Wrist |
 
-| POT5 | A5 | Gripper || POT5 | A5 | Gripper |
+   - Select COM port
+
+   - Upload code| POT4 | A4 | Wrist rotation || POT4 | A4 | Wrist rotation |
 
 
+
+5. **Testing:**| POT5 | A5 | Gripper || POT5 | A5 | Gripper |
+
+   - Open Serial Monitor (9600 baud)
+
+   - Rotate joints on the miniature model
+
+   - Observe the robot arm moving accordingly
 
 ------
 
+---
 
+
+
+## 📚 Applied Knowledge
 
 ## 💻 Software## 💻 Software
 
+### Bare-Metal Programming Concepts
 
 
-### Project Structure### Project Structure
+
+1. **Timer/Counter Configuration**
+
+   - CTC Mode (Clear Timer on Compare)### Project Structure### Project Structure
+
+   - Output Compare Register (OCR1A)
+
+   - Timer Interrupts
 
 
+
+2. **ADC (Analog-to-Digital Converter)**``````
+
+   - Reference voltage selection
+
+   - Channel multiplexingEduArm/EduArm/
+
+   - Prescaler configuration
+
+   - Conversion timing├── EduArm_Bare_Metal_Programming.ino    # Bare-metal implementation├── EduArm_Bare_Metal_Programming.ino    # Bare-metal implementation
+
+
+
+3. **Register Manipulation**├── EduArm_High_Level_Programming.ino    # Arduino library implementation├── EduArm_High_Level_Programming.ino    # Arduino library implementation
+
+   - TCCR1B, TIMSK1 (Timer registers)
+
+   - ADMUX, ADCSRA (ADC registers)└── README.md└── README.md
+
+   - DDRD, PORTD (I/O registers)
 
 ``````
 
-EduArm/EduArm/
+4. **PWM Signal Generation**
 
-├── EduArm_Bare_Metal_Programming.ino    # Bare-metal implementation├── EduArm_Bare_Metal_Programming.ino    # Bare-metal implementation
+   - Software PWM using interrupts
 
-├── EduArm_High_Level_Programming.ino    # Arduino library implementation├── EduArm_High_Level_Programming.ino    # Arduino library implementation
+   - State machine implementation
 
-└── README.md└── README.md
-
-``````
+   - Precise timing control### 1. Bare Metal Programming (EduArm_Bare_Metal_Programming.ino)### 1. Bare Metal Programming (EduArm_Bare_Metal_Programming.ino)
 
 
 
-### 1. Bare Metal Programming (EduArm_Bare_Metal_Programming.ino)### 1. Bare Metal Programming (EduArm_Bare_Metal_Programming.ino)
+---
 
 
 
-This version uses low-level programming with the following features:This version uses low-level programming with the following features:
+## 🎯 Advanced Features (Future Work)This version uses low-level programming with the following features:This version uses low-level programming with the following features:
 
 
 
-- **Timer1 CTC Mode**: Generates PWM signals for 6 servos with 20ms period- **Timer1 CTC Mode**: Generates PWM signals for 6 servos with 20ms period
+- [ ] Inverse Kinematics
 
-- **Interrupt Service Routine (ISR)**: Implements state machine to control each servo- **Interrupt Service Routine (ISR)**: Implements state machine to control each servo
+- [ ] Position memory/playback
 
-- **ADC Manual Configuration**: Configures and reads ADC through direct register manipulation- **ADC Manual Configuration**: Configures and reads ADC through direct register manipulation
+- [ ] Bluetooth/WiFi control- **Timer1 CTC Mode**: Generates PWM signals for 6 servos with 20ms period- **Timer1 CTC Mode**: Generates PWM signals for 6 servos with 20ms period
 
-- **Direct Register Manipulation**: No Arduino libraries used- **Direct Register Manipulation**: No Arduino libraries used
+- [ ] PC GUI interface
 
-
-
-#### Working Principle#### Working Principle
+- [ ] Multi-point trajectory planning- **Interrupt Service Routine (ISR)**: Implements state machine to control each servo- **Interrupt Service Routine (ISR)**: Implements state machine to control each servo
 
 
 
-```cpp```cpp
+---- **ADC Manual Configuration**: Configures and reads ADC through direct register manipulation- **ADC Manual Configuration**: Configures and reads ADC through direct register manipulation
 
-// Timer1 CTC mode with prescaler = 8// Timer1 CTC mode with prescaler = 8
 
-// OCR1A determines interrupt timing// OCR1A determines interrupt timing
+
+## 📖 References- **Direct Register Manipulation**: No Arduino libraries used- **Direct Register Manipulation**: No Arduino libraries used
+
+
+
+- [ATmega328P Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
+
+- [Servo Motor Control Theory](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors)
+
+- [AVR Timer Programming](http://ww1.microchip.com/downloads/en/appnotes/doc8453.pdf)#### Working Principle#### Working Principle
+
+
+
+---
+
+
+
+## 👨‍💻 Author```cpp```cpp
+
+
+
+**Nguyen Hoai Nam**// Timer1 CTC mode with prescaler = 8// Timer1 CTC mode with prescaler = 8
+
+
+
+- GitHub: [@nguyenhoainam2707](https://github.com/nguyenhoainam2707)// OCR1A determines interrupt timing// OCR1A determines interrupt timing
+
+- Email: your.email@example.com
 
 // State machine toggles between ON/OFF states for each servo// State machine toggles between ON/OFF states for each servo
 
+---
+
 ISR(TIMER1_COMPA_vect) {ISR(TIMER1_COMPA_vect) {
+
+## 📄 License
 
     // Toggle servo state    // Toggle servo state
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
     // Update OCR1A for next interrupt    // Update OCR1A for next interrupt
+
+---
 
 }}
 
+## 🙏 Acknowledgments
+
 ``````
 
+- Thanks to the Arduino and AVR community
 
+- Reference documentation from Microchip/Atmel
+
+- Inspiration from open-source robot arm projects
 
 **Technical Specifications:****Technical Specifications:**
 
+---
+
 - CPU Frequency: 16MHz- CPU Frequency: 16MHz
+
+## 📞 Contact
 
 - Prescaler: 8 (Timer ticks every 0.5μs)- Prescaler: 8 (Timer ticks every 0.5μs)
 
+If you have any questions or suggestions, please create an issue or contact me directly!
+
 - PWM Period: ~20ms (50Hz)- PWM Period: ~20ms (50Hz)
+
+---
 
 - Pulse Width: 460μs - 2520μs (servo dependent)- Pulse Width: 460μs - 2520μs (servo dependent)
 
+<div align="center">
 
+  
+
+**⭐ If you find this project useful, please give it a star! ⭐**
 
 ### 2. High-Level Programming (EduArm_High_Level_Programming.ino)### 2. High-Level Programming (EduArm_High_Level_Programming.ino)
 
+Made with ❤️ and ⚙️
 
+
+
+</div>
 
 Simplified version using Arduino's Servo library:Simplified version using Arduino's Servo library:
 
