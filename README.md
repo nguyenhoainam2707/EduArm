@@ -21,9 +21,9 @@ A 5-DOF robot arm control project using ATmega328P microcontroller with **bare-m
 
 ##  Demo
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Demo Video](https://img.youtube.com/vi/x8GzVEdLkVo/maxresdefault.jpg)](https://www.youtube.com/watch?v=x8GzVEdLkVo)
 
- **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)**
+ **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=x8GzVEdLkVo)**
 
 ---
 
@@ -225,7 +225,7 @@ cd EduArm
 **Nguyen Hoai Nam**
 
 - GitHub: [@nguyenhoainam2707](https://github.com/nguyenhoainam2707)
-- Email: your.email@example.com
+- Email: nguyennamyp54@gmail.com
 
 ---
 
@@ -253,6 +253,6 @@ If you have any questions or suggestions, please create an issue or contact me d
   
 ** If you find this project useful, please give it a star! **
 
-Made with  and 
+Made with ❤️ and passion for robotics!
 
 </div>
