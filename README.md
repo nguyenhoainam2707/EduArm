@@ -19,11 +19,11 @@ A 5-DOF robot arm control project using ATmega328P microcontroller with **bare-m
 
 ---
 
-##  Demo
+## 🎬 Demo
 
-[![Demo Video](https://img.youtube.com/vi/x8GzVEdLkVo/maxresdefault.jpg)](https://www.youtube.com/watch?v=x8GzVEdLkVo)
+[![Demo Video](https://img.youtube.com/vi/x8GzVEdLkVo/hqdefault.jpg)](https://www.youtube.com/watch?v=x8GzVEdLkVo)
 
- **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=x8GzVEdLkVo)**
+📹 **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=x8GzVEdLkVo)**
 
 ---
 
